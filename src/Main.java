@@ -61,38 +61,38 @@ public class Main {
 
         //Задча 4
         System.out.println();
-        int[] numberNumber = new int[3];
-        numberNumber[0] = 1;
-        numberNumber[1] = 2;
-        numberNumber[2] = 3;
-        for (int i = 0; i < numberNumber.length; i++) {
+        int[] numberMain = new int[3];
+        numberMain[0] = 1;
+        numberMain[1] = 2;
+        numberMain[2] = 3;
+        for (int i = 0; i < numberMain.length; i++) {
             if (i != 2) {
-                if(numberNumber[i] % 2 == 0){
-                    System.out.print(numberNumber[i] + ",");
+                if(numberMain[i] % 2 == 0){
+                    System.out.print(numberMain[i] + ",");
                 } else {
-                    System.out.print(numberNumber[i]+1 + ",");
+                    System.out.print(numberMain[i]+1 + ",");
                 }
             } else {
-                if(numberNumber[i] % 2 == 0){
-                    System.out.print(numberNumber[i] + ",");
+                if(numberMain[i] % 2 == 0){
+                    System.out.print(numberMain[i] + ",");
                 } else {
-                    System.out.print(numberNumber[i]+1);
+                    System.out.print(numberMain[i]+1);
                 }
             }
         }
         System.out.println("");
         for (int b = 2; b >= 0; b--) {
             if (b != 0) {
-                if (numberNumber[b] % 2 == 0) {
-                    System.out.print(numberNumber[b] + ",");
+                if (numberMain[b] % 2 == 0) {
+                    System.out.print(numberMain[b] + ",");
                 }else {
-                    System.out.print(numberNumber[b]+1 + ",");
+                    System.out.print(numberMain[b]+1 + ",");
                 }
             } else {
-                if(numberNumber[b] % 2 == 0) {
-                    System.out.print(numberNumber[b] + ",");
+                if(numberMain[b] % 2 == 0) {
+                    System.out.print(numberMain[b] + ",");
                 } else{
-                    System.out.print(numberNumber[b]+1);
+                    System.out.print(numberMain[b]+1);
                 }
             }
         }
